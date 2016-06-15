@@ -1,0 +1,82 @@
+/*font-family: 'Open Sans', sans-serif;*/
+@import 'iconos.scss';
+
+.container__header{
+	padding:20px 0px;
+	text-align:center;
+		p{
+			color:#E91E63;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:normal;
+			font-size:20px;
+		}
+}
+
+.container_letras_center{
+	padding:50px;
+	text-align:center;
+		.icon-logo_insomnia{
+			font-size: 242px;
+			color: #000;
+			width: 100%;
+			display: block;
+		}
+		.icon-logo_insomnia_letra{
+			font-size: 82px;
+		    color: #E91E63;
+		    width: 100%;
+		    display: block;
+		    margin-top: 28px;
+		}
+}
+.footer{
+	text-align:center;
+		p{
+			color:#E91E63;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:normal;
+			font-size:20px;
+			width:100%;
+			display:block;
+			margin:0px;
+		}
+		a{
+			color: #E91E63;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: normal;
+			font-size: 20px;
+			width: 191px;
+			display: block;
+			margin: 0 auto;
+			border: 1px solid #E91E63;
+			padding: 2px;
+			border-radius: 3px;
+			margin-bottom: 10px;
+				&:hover, &:active, &:focus{
+					background-color:#E91E63;
+					color:#FFF;
+					text-decoration:none;
+					transition:0.3s;
+				}
+		}
+}
+
+@media (max-width:500px){
+	.icon-logo_insomnia{
+		font-size: 157px!important;
+	}
+	.icon-logo_insomnia_letra{
+		font-size: 49px!important;
+	}
+	.footer p{
+		padding-top: 49px;
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
